@@ -126,7 +126,7 @@ public class Principal {
         if (indicePunto > 0) {
             String no = ar.substring(0, indicePunto);
             String ext = ar.substring(indicePunto + 1);
-            nFnl = "\\" + no + "_" + tipo + "." + ext;
+            nFnl = "/" + no + "_" + tipo + "." + ext;
         }
         return nFnl;
     }
